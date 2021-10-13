@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_response_in_intent_sample"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_to_intent_form_add"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/btn_to_intent_form_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:text="Edit"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="10">
+
+        <Button
+            android:id="@+id/btn_to_tel"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Tel"/>
+
+        <Button
+            android:id="@+id/btn_to_send_to"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Send To"/>
+
+        <Button
+            android:id="@+id/btn_to_send"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Send"/>
+
+        <Button
+            android:id="@+id/btn_to_view"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="View"/>
+
+        <Button
+            android:id="@+id/btn_to_mail_to"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Mail To"/>
+
+        <Button
+            android:id="@+id/btn_to_mail"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Mail"/>
+
+        <Button
+            android:id="@+id/btn_to_mail_multiple"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Mail Multiple"/>
+
+        <Button
+            android:id="@+id/btn_to_map"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Map"/>
+
+        <Button
+            android:id="@+id/btn_to_map_path"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Map Path"/>
+
+        <Button
+            android:id="@+id/btn_to_music"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Music"/>
+
+        <Button
+            android:id="@+id/btn_to_camera"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Camera"/>
+
+        <Button
+            android:id="@+id/btn_to_take_photo"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Take Photo"/>
+
+        <Button
+            android:id="@+id/btn_to_wifi_set"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="WiFi Set"/>
+
+        <Button
+            android:id="@+id/btn_to_install_apk"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Install"/>
+
+        <Button
+            android:id="@+id/btn_to_uninstall_apk"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Uninstall"/>
+
+        <Button
+            android:id="@+id/btn_to_contact"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Contact"/>
+
+        <Button
+            android:id="@+id/btn_to_contact_id"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Contact Id"/>
+
+        <Button
+            android:id="@+id/btn_to_activity"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Activity"/>
+
+        <Button
+            android:id="@+id/btn_to_record"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Record"/>
+
+        <Button
+            android:id="@+id/btn_to_search"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Search"/>
+
+    </GridLayout>
+
+</LinearLayout>

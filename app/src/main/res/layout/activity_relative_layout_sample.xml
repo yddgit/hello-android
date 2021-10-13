@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutSample"
+    android:fadingEdge="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 居中 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/yellow">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_centerHorizontal="true"
+                android:text="Text 1"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_centerVertical="true"
+                android:text="Text 2"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_centerInParent="true"
+                android:text="Text 3"/>
+        </RelativeLayout>
+
+        <!-- alignParent -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/pink">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:layout_alignParentLeft="true"
+                android:text="Text 1    (Text 1 overrided)"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignParentRight="true"
+                android:text="Text 2"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignParentTop="true"
+                android:text="Text 3"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignParentBottom="true"
+                android:text="Text 4"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="Text 5"/>
+        </RelativeLayout>
+
+        <!-- 相对位置 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/yellow">
+            <TextView
+                android:id="@+id/relative_layout_main_text"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:layout_centerInParent="true"
+                android:text="Text 1"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_toLeftOf="@+id/relative_layout_main_text"
+                android:text="Text 2"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_toRightOf="@+id/relative_layout_main_text"
+                android:text="Text 3"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_above="@+id/relative_layout_main_text"
+                android:text="Text 4"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_below="@+id/relative_layout_main_text"
+                android:text="Text 5"/>
+        </RelativeLayout>
+
+        <!-- align -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/pink">
+            <TextView
+                android:id="@+id/relative_layout_main_align_text"
+                android:padding="10dp"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/red"
+                android:layout_centerInParent="true"
+                android:text="Text 1"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignTop="@+id/relative_layout_main_align_text"
+                android:text="Text 2"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignBottom="@+id/relative_layout_main_align_text"
+                android:text="Text 3"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignLeft="@+id/relative_layout_main_align_text"
+                android:text="Text 4"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_secondary"
+                android:layout_alignRight="@+id/relative_layout_main_align_text"
+                android:text="Text 5"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

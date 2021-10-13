@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.project.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloAndroid">
+        <activity
+            android:name=".IconFontSample"
+            android:exported="true"
+            android:label="@string/icon_font_sample"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.my.project.android.IntentSample.ENTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".IntentFormSample"
+            android:exported="true"
+            android:label="Intent Form Sample"
+            android:parentActivityName=".IntentSample">
+            <intent-filter>
+                <action android:name="com.my.project.android.IntentFormSample.ADD" />
+                <action android:name="com.my.project.android.IntentFormSample.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IntentSample" />
+        </activity>
+        <activity
+            android:name=".IntentSample"
+            android:exported="true"
+            android:label="@string/intent_sample"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.my.project.android.IntentSample.ENTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ThreadSample"
+            android:exported="true"
+            android:label="@string/thread_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".RecyclerViewSample"
+            android:exported="true"
+            android:label="@string/recycler_view_sample"
+            android:parentActivityName=".ViewSample">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSample" />
+        </activity>
+        <activity
+            android:name=".CustomListViewSample"
+            android:exported="true"
+            android:label="@string/custom_list_view_sample"
+            android:parentActivityName=".ViewSample">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSample" />
+        </activity>
+        <activity
+            android:name=".SimpleListViewSample"
+            android:exported="true"
+            android:label="@string/simple_list_view_sample"
+            android:parentActivityName=".ViewSample">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSample" />
+        </activity>
+        <activity
+            android:name=".ListViewSample"
+            android:exported="true"
+            android:label="@string/list_view_sample"
+            android:parentActivityName=".ViewSample">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSample" />
+        </activity>
+        <activity
+            android:name=".ViewSample"
+            android:exported="true"
+            android:label="@string/view_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".GridLayoutSample"
+            android:exported="true"
+            android:label="@string/grid_layout_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".FrameLayoutSample"
+            android:exported="true"
+            android:label="@string/frame_layout_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".TableLayoutSample"
+            android:exported="true"
+            android:label="@string/table_layout_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".RelativeLayoutSample"
+            android:exported="true"
+            android:label="@string/relative_layout_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".LinearLayoutSample"
+            android:exported="true"
+            android:label="@string/linear_layout_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:icon="@drawable/button_style"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

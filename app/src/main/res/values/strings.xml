@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="linear_layout_sample">Linear Layout Sample</string>
+    <string name="relative_layout_sample">Relative Layout Sample</string>
+    <string name="table_layout_sample">Table Layout Sample</string>
+    <string name="frame_layout_sample">Frame Layout Sample</string>
+    <string name="grid_layout_sample">Grid Layout Sample</string>
+    <string name="view_sample">View Sample</string>
+    <string name="hello_in_strings">Hello in strings</string>
+    <string name="list_view_sample">List View Sample</string>
+    <string name="simple_list_view_sample">Simple List View Sample</string>
+    <string name="custom_list_view_sample">Custom List View Sample</string>
+    <string name="recycler_view_sample">Recycler View Sample</string>
+    <string name="thread_sample">Thread Sample</string>
+    <string name="select_title">Select Country</string>
+    <string name="person_select">Select Person</string>
+    <string name="intent_sample">Intent Sample</string>
+    <string name="icon_font_sample">Icon Font Sample</string>
+    <string-array name="select_options">
+        <item>China</item>
+        <item>Russia</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Canada</item>
+        <item>India</item>
+        <item>Australia</item>
+        <item>Japan</item>
+    </string-array>
+</resources>

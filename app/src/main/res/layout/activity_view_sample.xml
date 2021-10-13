@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSample"
+    android:fadingEdge="vertical"
+    android:id="@+id/sv_global">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_to_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Scroll to End"/>
+
+        <!-- TextView -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello!"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_in_strings"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Color green, size 18sp, bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="15dp"
+            android:text="Max height is 15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="10"
+            android:text="Max length is 10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:background="@color/yellow"
+            android:text="Max width is 50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="First Line\nSecond Line\nThird Line\nForth Line"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Single Line: First Line\nSecond Line\nThird Line\nForth Line"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:text="Background color is yellow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowRadius="3.0"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:text="Shadow is darker gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher_round"
+            android:drawableRight="@mipmap/ic_launcher_round"
+            android:drawableTop="@mipmap/ic_launcher_round"
+            android:drawableBottom="@mipmap/ic_launcher_round"
+            android:text="Drawable"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="https://www.baidu.com"/>
+        <TextView
+            android:id="@+id/tv_focusable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="-1"
+            android:singleLine="true"
+            android:text="Focusable is true and Focusable in touch mode is true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
+            android:text="Text in text view scrollHorizontally is true"/>
+
+        <!-- EditText -->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please input serial NO."
+            android:textColorHint="@android:color/holo_orange_light"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:text="Select all on focus"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Please input number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:hint="Please input singed number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Please input decimal number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Please input phone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Please input email address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Single line input"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minLines="2"
+            android:hint="Multiline input, min height is 2 lines and max height is 4 lines"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textScaleX="1.8"
+            android:hint="Text scale"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:text="capitalize type is sentences."/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:text="capitalize type is words."/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"
+            android:text="capitalize type is characters."/>
+
+        <!-- Button -->
+
+        <Button
+            android:id="@+id/btn_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_style"
+            android:text="Press me!"/>
+
+        <!-- ImageView -->
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitXY"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitStart"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitCenter"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitEnd"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="center"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="78dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerInside"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="matrix"
+            android:background="@color/yellow"/>
+        <ImageView
+            android:id="@+id/iv_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- RadioButton -->
+
+        <RadioGroup
+            android:id="@+id/radio_group_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="male"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="female"/>
+        </RadioGroup>
+
+        <!-- Checkbox -->
+
+        <CheckBox
+            android:id="@+id/cb_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <!-- ToggleButton -->
+
+        <ToggleButton
+            android:id="@+id/tbtn_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:disabledAlpha="0.5"
+            android:enabled="false"
+            android:textOff="Off"
+            android:textOn="On"/>
+
+        <!-- Switch -->
+
+        <Switch
+            android:id="@+id/sw_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:showText="true"
+            android:textOff="Off"
+            android:textOn="On"
+            android:track="@drawable/switch_track"
+            android:thumb="@drawable/switch_thumb"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:checked="true"/>
+
+        <!-- ProgressBar -->
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:indeterminateTint="@color/red"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:indeterminateDrawable="@drawable/progress_circle"/>
+        <ProgressBar
+            android:id="@+id/pb_in_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:progressDrawable="@drawable/progress_horizontal_style"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+        <!-- SeekBar -->
+
+        <SeekBar
+            android:id="@+id/sb_in_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:max="100"
+            android:thumb="@drawable/seek_bar_style"/>
+
+        <!-- RatingBar -->
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:numStars="5"
+            android:rating="4"
+            android:isIndicator="true"/>
+        <RatingBar
+            android:id="@+id/rb_in_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:numStars="6"
+            android:rating="1"
+            android:stepSize="1"/>
+
+        <!-- LayerList -->
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/layer_list_sample"/>
+
+        <!-- StateList -->
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/state_list_sample"
+            android:text="State List Sample"/>
+
+        <!-- HorizontalScrollView -->
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_in_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/darker_gray">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hsv_btn_right"
+                    android:text="To Right"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:numStars="20"
+                    android:rating="5"
+                    android:stepSize="1"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hsv_btn_left"
+                    android:text="To Left"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- ScrollView不允许嵌套 -->
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/sv_in_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/darker_gray">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/sv_btn_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="To Bottom"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:text="Button1"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:text="Button2"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:text="Button3"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:text="Button4"/>
+                <Button
+                    android:id="@+id/sv_btn_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="To Top"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <!-- Alert Dialog -->
+
+        <Button
+            android:id="@+id/btn_alert_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Alert 1"/>
+        <Button
+            android:id="@+id/btn_alert_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Alert 2"/>
+        <Button
+            android:id="@+id/btn_alert_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Alert 3"/>
+        <Button
+            android:id="@+id/btn_alert_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Alert 4"/>
+
+        <!-- List View -->
+
+        <Button
+            android:id="@+id/btn_list_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="List View"/>
+        <Button
+            android:id="@+id/btn_simple_list_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Simple List View"/>
+        <Button
+            android:id="@+id/btn_custom_list_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Custom List View"/>
+
+        <!-- RecyclerView -->
+
+        <Button
+            android:id="@+id/btn_recycler_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Recycler View"/>
+
+        <!-- PopupWindow -->
+
+        <Button
+            android:id="@+id/btn_popup_as_drop_down_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="120dp"
+            android:text="Popup as Drop Down"/>
+        <Button
+            android:id="@+id/btn_popup_at_center_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Popup at Center"/>
+
+        <!-- Spinner -->
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:entries="@array/select_options"
+            android:prompt="@string/select_title"
+            android:spinnerMode="dialog"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:entries="@array/select_options"
+            android:popupBackground="@color/green"/>
+        <Spinner
+            android:id="@+id/spinner_sample"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:prompt="@string/person_select"
+            android:spinnerMode="dialog"/>
+    </LinearLayout>
+</ScrollView>

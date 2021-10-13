@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="200sp"
+        android:textColor="@color/red"
+        android:text="&#xe9ca;"/>
+
+    <TextView
+        android:id="@+id/tv_100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100sp"
+        android:textColor="@color/yellow"
+        android:text="&#xe9ca;"/>
+
+    <TextView
+        android:id="@+id/tv_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="@color/blue"
+        android:text="&#xe9ca;"/>
+
+    <TextView
+        android:id="@+id/tv_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/green"
+        android:text="&#xe9ca;"/>
+
+    <com.my.project.android.view.IconFontView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="&#xe9bd;"/>
+
+    <com.my.project.android.view.IconFontView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="&#xe9c0;"/>
+</LinearLayout>
