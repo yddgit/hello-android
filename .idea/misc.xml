@@ -16,13 +16,16 @@
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_intent_form_sample.xml" value="0.1" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_intent_sample.xml" value="0.6" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_linear_layout_sample.xml" value="0.264" />
-        <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_login_sample.xml" value="0.1" />
+        <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_login_success_sample.xml" value="0.20625" />
+        <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_recycler_view_sample.xml" value="0.22511724856696197" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_simple_list_view_sample.xml" value="0.225" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_table_layout_sample.xml" value="0.264" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/activity_view_sample.xml" value="0.20435153583617746" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/alert_dialog_customize_view_layout.xml" value="0.225" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/custom_list_view_even_item_layout.xml" value="0.5115257958287596" />
+        <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/login_success_item_layout.xml" value="0.4" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/popup_window_view_layout.xml" value="0.1" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/recycler_view_item_layout.xml" value="0.5770700636942675" />
         <entry key="..\:/workspace/android/hello-android/app/src/main/res/layout/simple_list_view_item_layout.xml" value="0.4" />

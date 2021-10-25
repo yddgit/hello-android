@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.my.project.android.view.IconFontView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="&#xe668;"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号密码登录"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="8dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="8dp"
+        android:inputType="textVisiblePassword"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="其他登录方式"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#1296db"
+            android:text="&#xe73e;"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#1296d0"
+            android:text="&#xea07;"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#13227a"
+            android:text="&#xe60b;"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#d81e06"
+            android:text="&#xe636;"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="&#xea0b;"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#1296db"
+            android:text="&#xe607;"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+        <com.my.project.android.view.IconFontView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#7afa19"
+            android:text="&#xe608;"/>
+
+    </LinearLayout>
+
+</LinearLayout>

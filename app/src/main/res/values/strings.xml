@@ -16,6 +16,8 @@
     <string name="person_select">Select Person</string>
     <string name="intent_sample">Intent Sample</string>
     <string name="icon_font_sample">Icon Font Sample</string>
+    <string name="login_sample">Login Sample</string>
+    <string name="login_success_sample">Login Success Sample</string>
     <string-array name="select_options">
         <item>China</item>
         <item>Russia</item>

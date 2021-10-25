@@ -13,16 +13,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
         <activity
+            android:name=".LoginSuccessSample"
+            android:exported="true"
+            android:label="@string/login_success_sample"
+            android:parentActivityName=".LoginSample">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginSample" />
+        </activity>
+        <activity
+            android:name=".LoginSample"
+            android:exported="true"
+            android:label="@string/login_sample"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".IconFontSample"
             android:exported="true"
             android:label="@string/icon_font_sample"
             android:parentActivityName=".MainActivity">
-            <intent-filter>
-                <action android:name="com.my.project.android.IntentSample.ENTER" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
